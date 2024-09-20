@@ -1,0 +1,42 @@
+<style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            text-align: center; /* Centraliza o texto do botão */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        main {
+            flex: 1; /* Faz com que o main ocupe o espaço disponível */
+        }
+        .image-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px; /* Espaçamento entre as imagens */
+        }
+        .image-item {
+            text-align: center; /* Centraliza o texto abaixo da imagem */
+            border: 1px solid #ddd; /* Borda suave */
+            border-radius: 8px; /* Bordas arredondadas */
+            overflow: hidden; /* Esconde partes da imagem que excedem a borda */
+            width: 340px; /* Largura da imagem */
+        }
+        img {
+            cursor: zoom-in;
+            background-color: hsl(0, 0%, 90%);
+            transition: background-color 300ms;
+            width: 100%; /* Preenche a largura do contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+        p {
+            margin: 10px 0 0; /* Margem acima do texto */
+        }
+        footer {
+            position: relative; /* Garante que o footer fique na parte inferior */
+        }
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Times New Roman", Times, serif;
+        }
+    </style>
